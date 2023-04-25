@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Guessing Game</h1>
+    </header>
+    <main>
+      <form>
+        <label for="guess-input">Guess a number between 1-100:</label>
+        <input type="number" id="guess-input" min="1" max="100" required />
+        <button type="submit">Guess</button>
+      </form>
+      <p class="hint"></p>
+      <button class="hint-button">Hint</button>
+      <ul class="guesses-list"></ul>
+      <button class="play-again-button">Play Again</button>
+    </main>
+    <script src='js/guessing-game.js'></script>
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+</html>
